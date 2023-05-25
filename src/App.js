@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import profilePic from './profilePic.jpeg';
-import Resume from './DemetriGerasResume.pdf';
+import Resume from './DemetriGerasCV2023.pdf';
 
 function App() {
 
