@@ -27,7 +27,8 @@ function App() {
             <a className="entrepreneur">Projects</a>
             <div className="dropdown-content">
               <a href="https://demetrigeras.github.io/Hangman/" target="_blank"   className="entrepreneur">Hangman</a>
-              <a href="https://demetrigeras.github.io/UI-Project/" target="_blank"  className="entrepreneur">Random Recipes</a>
+              <a href="https://world-help-charities.netlify.app/" target="_blank"  className="entrepreneur">World Help</a>
+              <a href="https://github.com/demetrigeras/GA-LAGA" target="_blank"  className="entrepreneur">Life after GA (Work-in progress)</a>
             </div>
           </div>
           
