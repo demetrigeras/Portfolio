@@ -203,6 +203,7 @@ function App() {
   <h1>Projects</h1>
   <div className="container">
   <div className="myprojects">
+    <div className="allprojectdivs">
     <div className="protitle">
     <p>Hangman</p>
     </div>
@@ -218,7 +219,10 @@ function App() {
     </div>
    
       <a href="https://github.com/demetrigeras/Hangman" target="_blank" className="gitlinks" >Github Front-end</a>
+      </div>
+      <div className="allprojectdivs">
       <div className="protitle">
+        
      <p>World Help</p>
      </div>
      <div className="project-details">
@@ -238,6 +242,8 @@ management and smooth user interactions
       </div>
   <a href="https://github.com/demetrigeras/world-help-front" target="_blank" className="gitlinks">Github Front-end</a>
   <a href="https://github.com/demetrigeras/World-help" target="_blank" className="gitlinks">Github Back-end</a>
+  </div>
+  <div className="allprojectdivs">
   <div className="protitle">
       <p>Life After GA</p>
       </div>
@@ -253,6 +259,7 @@ Utilizing React.js and Django frameworks to build an user interface and handle b
       </div>
       <a href="https://github.com/demetrigeras/GA-LAGA" target="_blank"  className="gitlinks">Github Front-end </a>
       <a href="https://github.com/demetrigeras/GA-LAGA-BE" target="_blank" className="gitlinks">Github Back-end </a>
+      </div>
     </div>
     </div>
   </section>
@@ -261,12 +268,29 @@ Utilizing React.js and Django frameworks to build an user interface and handle b
               <Element name="contact" className="section">
                 <section id="contact">
                 <h1>Contact</h1>
+                <div className="allcontactme">
                   <div className="container">
                   <div className="contactme"> 
-                  <a href="https://github.com/demetrigeras" target="_blank" className="contactme">https://github.com/demetrigeras</a>
-                  <a href="https://www.linkedin.com/in/demetri-geras/" target="_blank" className="contactme">https://www.linkedin.com/in/demetri-geras/</a>
+                  {/* <h1>Contact</h1> */}
+                  <div className="logolink">
+                  <img src="https://lthub.ubc.ca/files/2021/06/GitHub-Logo.png" alt="gitlogo" className="logo" />
+          
+                  <a href="https://github.com/demetrigeras" target="_blank" className="contactme">https://github.com/demetrigeras</a><br/>
+                  
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/800px-LinkedIn_logo_initials.png" alt="gitlogo" className="logo" />
+                  
+                  <a href="https://www.linkedin.com/in/demetri-geras/" target="_blank" className="contactme">https://www.linkedin.com/in/demetri-geras/</a><br/>
+                 
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="gitlogo" className="logo" />
                   <a href="mailto:demetrijgeras@gmail.com" className="contactme">demetrijgeras@gmail.com</a>
                   </div>
+                  </div>
+                  </div>
+                  {/* <div className="chessthings">
+                 <p>Can you solve the problem? Whites Move! </p><br/>
+                 <p>Add me on chess.com</p>
+                  <img src='https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpBnU3Ou.png'className="chesslogo"></img>
+                  </div> */}
                   </div>
                 </section>
               </Element>

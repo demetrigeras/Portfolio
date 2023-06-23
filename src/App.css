@@ -49,11 +49,12 @@ h1  {
   font-weight: 700;
   padding-top: -50px;
   text-decoration: underline;
-  
+  font-family: 'Roboto', sans-serif;
   
 }
 .fullbody h1{
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
 }
 h2  {
   display: flex;
@@ -142,7 +143,7 @@ h2  {
  flex-direction: column;
  flex-wrap: wrap;
  margin: 5px;
- 
+ font-family: 'Roboto', sans-serif;
 }
 .skill-icon {
   width: 80px;
@@ -182,7 +183,14 @@ flex-direction: row;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+ 
 }
+/* .project-details .protitle .gitlinks a{
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+  
+} */
 /* .gitlinks{
   display: flex;
   justify-content: center;
@@ -192,12 +200,16 @@ flex-direction: row;
 .gitlinks {
   display: flex;
   justify-content: center;
+  margin-left: 35px;
 }
-.contactme{
+
+.myprojects .allprojectdivs{
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  border: solid;
+  
+  
 }
 .project-details {
   display: flex;
@@ -207,7 +219,7 @@ flex-direction: row;
 .project-des {
   margin-left: 10px;
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .myprojects a{
@@ -234,7 +246,81 @@ flex-direction: row;
 .aboutd{
   font-size: 25px;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: beige; */
 }
-.gitlinks {
+
+
+.logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  align-items: center;
+  /* margin-right: 10px; */
+  
+}
+.logolink{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
+  /* justify-content: center; */
+}
+
+.allcontactme .logolink{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+ 
+}
+
+
+#contact{
+  border: solid;
+}
+
+.chesslogo{
+  height: 40vh;
+  width: auto;
+  border-radius: 0%;
+  background-image: no-repeat;
+  background-image: cover;
+  margin: 50px;
+  margin-bottom: 10px;
+
+}
+
+.contactme{
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  
+ 
+}
+.allcontactme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 50px; */ 
+  
+}
+
+
+.container .contactme a{
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+#skills .container{
   margin-left: 35px;
 }
