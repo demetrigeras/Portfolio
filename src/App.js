@@ -45,7 +45,7 @@ function App() {
                 </a>
               </li>
               <li>
-                <a href={Resume}>
+              <a href={Resume} target="_blank" rel="noopener noreferrer">
                   <span className="item">Resume</span>
                 </a>
               </li>
@@ -71,13 +71,16 @@ function App() {
               <br />
             </div>
             <main>
-              <h1>About</h1>
+            
 
               <Element name="aboutMe" className="section">
+              
                 <section id="aboutMe">
+                <h1>About</h1>
                   <div className="container">
+                    <div className="aboutd">
                     <p>
-                      About: I'm a passionate software engineer with a knack for
+                      I'm a passionate software engineer with a knack for
                       solving complex problems and debugging my peers' errors. I
                       thrive in collaborative environments and believe in
                       creating warm and supportive spaces that foster creativity
@@ -85,12 +88,15 @@ function App() {
                       playing soccer, chess, or exploring new parts of the
                       world.
                     </p>
+                    {/* <img src='https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/ColinStapczynski/phpBnU3Ou.png'></img> */}
+                    </div>
                   </div>
                 </section>
               </Element>
-              <h1>Skills</h1>
+              
               <Element name="skills" className="section">
                 <section id="skills">
+                <h1>Skills</h1>
                   <div className="container">
                     <div className="skill-card-card-border">
                       <img
@@ -191,14 +197,17 @@ function App() {
                   </div>
                 </section>
               </Element>
-              <h1>Projects</h1>
+            
               <Element name="projects" className="section">
   <section id="projects">
+  <h1>Projects</h1>
   <div className="container">
   <div className="myprojects">
+    <div className="protitle">
     <p>Hangman</p>
+    </div>
     <div className="project-details">
-      <a href="https://demetrigeras.github.io/Hangman/" className="project-link">
+      <a href="https://demetrigeras.github.io/Hangman/" target="_blank" className="project-link">
         <img src={hangman} alt="hangman" className="pro" />
       </a>
       <div className="project-des">
@@ -208,11 +217,12 @@ function App() {
       </div>
     </div>
    
-      <a href="https://github.com/demetrigeras/Hangman">Github</a>
-    
+      <a href="https://github.com/demetrigeras/Hangman" target="_blank" className="gitlinks" >Github Front-end</a>
+      <div className="protitle">
      <p>World Help</p>
+     </div>
      <div className="project-details">
-      <a href="https://world-help-charities.netlify.app/" className="project-link">
+      <a href="https://world-help-charities.netlify.app/" target="_blank" className="project-link">
       <img src={worldhelp} alt="worldhelp" className="pro" />
       </a>
       <div className="project-des">
@@ -226,11 +236,13 @@ management and smooth user interactions
         </p>
       </div>
       </div>
-  <a href="https://github.com/demetrigeras/world-help-front" className="gitlinks">Github Front-end</a>
-  <a href="https://github.com/demetrigeras/World-help" className="gitlinks">Github Back-end</a>
+  <a href="https://github.com/demetrigeras/world-help-front" target="_blank" className="gitlinks">Github Front-end</a>
+  <a href="https://github.com/demetrigeras/World-help" target="_blank" className="gitlinks">Github Back-end</a>
+  <div className="protitle">
       <p>Life After GA</p>
+      </div>
       <div className="project-details">
-      <img src={lifeafterga} alt="lifeafterga" className="pro" />
+      <img src={lifeafterga}  alt="lifeafterga" className="pro" />
       <div className="project-des">
         <p>
         Developing "Life After GA," a social media clone, designed for bootcamp graduates to interact and connect
@@ -239,19 +251,20 @@ Utilizing React.js and Django frameworks to build an user interface and handle b
         </p>
       </div>
       </div>
-      <a href="https://github.com/demetrigeras/GA-LAGA" className="gitlinks">Github Front-end </a>
-      <a href="https://github.com/demetrigeras/GA-LAGA-BE" className="gitlinks">Github Back-end </a>
+      <a href="https://github.com/demetrigeras/GA-LAGA" target="_blank"  className="gitlinks">Github Front-end </a>
+      <a href="https://github.com/demetrigeras/GA-LAGA-BE" target="_blank" className="gitlinks">Github Back-end </a>
     </div>
     </div>
   </section>
 </Element>
-              <h1>Contact</h1>
+              
               <Element name="contact" className="section">
                 <section id="contact">
+                <h1>Contact</h1>
                   <div className="container">
                   <div className="contactme"> 
-                  <a href="https://github.com/demetrigeras" className="contactme">https://github.com/demetrigeras</a>
-                  <a href="https://www.linkedin.com/in/demetri-geras/" className="contactme">https://www.linkedin.com/in/demetri-geras/</a>
+                  <a href="https://github.com/demetrigeras" target="_blank" className="contactme">https://github.com/demetrigeras</a>
+                  <a href="https://www.linkedin.com/in/demetri-geras/" target="_blank" className="contactme">https://www.linkedin.com/in/demetri-geras/</a>
                   <a href="mailto:demetrijgeras@gmail.com" className="contactme">demetrijgeras@gmail.com</a>
                   </div>
                   </div>
