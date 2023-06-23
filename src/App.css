@@ -324,3 +324,35 @@ flex-direction: row;
 #skills .container{
   margin-left: 35px;
 }
+/* Default styles */
+
+/* ... Your existing CSS code ... */
+
+/* Media queries for different screen sizes */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  body {
+    font-size: 16px;
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+}
+
+/* Medium devices (between 576px and 992px) */
+@media (min-width: 576px) and (max-width: 992px) {
+  body {
+    font-size: 18px;
+  }
+
+  /* Adjust other styles as needed for medium screens */
+}
+
+/* Large devices (greater than 992px) */
+@media (min-width: 992px) {
+  body {
+    font-size: 20px;
+  }
+
+  /* Adjust other styles as needed for large screens */
+}
