@@ -324,35 +324,150 @@ flex-direction: row;
 #skills .container{
   margin-left: 35px;
 }
-/* Default styles */
+/* Media Queries */
 
-/* ... Your existing CSS code ... */
-
-/* Media queries for different screen sizes */
-
-/* Small devices (up to 576px) */
-@media (max-width: 576px) {
-  body {
-    font-size: 16px;
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    flex-direction: row;
   }
-
-  /* Adjust other styles as needed for smaller screens */
 }
 
-/* Medium devices (between 576px and 992px) */
-@media (min-width: 576px) and (max-width: 992px) {
-  body {
-    font-size: 18px;
+/* Medium devices (tablets, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    flex-direction: row;
   }
-
-  /* Adjust other styles as needed for medium screens */
 }
 
-/* Large devices (greater than 992px) */
-@media (min-width: 992px) {
-  body {
+/* Small devices (landscape phones, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .container p {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .container p {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .container h3 {
+    margin-top: 10px;
+  }
+
+  .container span {
+    margin-bottom: 10px;
+  }
+
+  .container .title {
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  .wrapper .sidebar {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .App {
+    margin-top: -20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .project-des {
+    /* white-space: nowrap; */
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    flex-wrap: wrap;
+  }
+}
+
+
+/* iPhone 5/SE */
+@media (max-width: 320px) {
+  img {
+    height: 150px;
+    width: auto;
+  }
+  
+  .container p {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .container h3 {
     font-size: 20px;
   }
-
-  /* Adjust other styles as needed for large screens */
+  
+  .container span {
+    font-size: 14px;
+  }
+  
+  .container .title {
+    font-size: 24px;
+  }
+  
+  .wrapper .sidebar {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    margin-left: 0;
+  }
+  
+  .dropdown {
+    display: none;
+  }
+  
+  .App {
+    margin-top: -20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
 }
