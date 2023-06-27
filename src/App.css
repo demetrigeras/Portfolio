@@ -11,7 +11,10 @@ body {
   background-image: cover;
   scroll-behavior: smooth;
 }
-
+/* button{
+  width: 10px;
+  height: 10px;
+} */
 img {
   height: 40vh;
   width: auto;
@@ -355,69 +358,117 @@ flex-direction: row;
 
 /* Extra small devices (portrait phones, less than 768px) */
 @media (max-width: 767px) {
-  .container {
-    flex-direction: column;
+  body {
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightblue;
+    color: #f5efef;
+    font-size: 10px;
+    overflow-x: hidden;
+    background-image: no-repeat;
+    /* background-image: cover; */
+    scroll-behavior: smooth;
+    margin-top: 20px;
+    width: 97%;
   }
-
   .container p {
-    margin: 0;
-    margin-top: 10px;
-    text-align: center;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+}
 
-  .container h3 {
-    margin-top: 10px;
-  }
-
-  .container span {
-    margin-bottom: 10px;
-  }
-
-  .container .title {
-    margin-bottom: 10px;
-  }
-
-  img {
-    margin: 0 auto;
-  }
 
   .wrapper .sidebar {
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-left: 0;
-    margin-bottom: 10px;
-    transition: all 0.5s ease;
+    /* position: relative; */
+   display: none;
+
   }
 
   .content {
     margin-left: 0;
   }
 
-  .dropdown {
-    display: none;
+  img{
+      
+      height: 30vh;
+      width: auto;
+      border-radius: 50%;
+      background-image: no-repeat;
+      background-image: cover;
   }
 
-  .App {
-    margin-top: -20px;
+  #contact a{
+    font-size: 20px
+    
   }
-
+  #contact{
+    border: none;
+  }
+  
+  .myprojects .protitle p {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 35px;
+    text-decoration: underline;
+}
+.project-link .pro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 85px; */
+}
+.gitlinks  {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 0px;
+  /* margin-left: 100px; */
+}
+.project-link img .pro{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+}
+  
   h1 {
-    font-size: 40px;
+    font-size: 30px;
+    
   }
 
   h2 {
     font-size: 30px;
   }
 
-  .project-des {
-    /* white-space: nowrap; */
-    overflow: hidden;
-    /* text-overflow: ellipsis; */
+  .project-details {
+    display: block;
+    align-items: center;
+
+  }
+  .container{
+    display: flex;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
     flex-wrap: wrap;
   }
-}
+  
+    /* .container .skill-card-card-border p .skill-icon{
+      display: flex;
+      
+     
+      flex-direction: column;
+      flex-wrap: wrap;
+    
+  } */
 
+}
 
 /* iPhone 5/SE */
 @media (max-width: 320px) {

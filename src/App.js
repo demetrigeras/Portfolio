@@ -6,7 +6,9 @@ import hangman from "./hangman.png"
 import worldhelp from "./worldhelp.png"
 import lifeafterga from "./lifeafterga.png"
 import Resume from "./DemetriGerasCV2023.pdf"
+import { useState } from "react";
 function App() {
+
   return (
     <div className="App">
       <div className="homepage">
@@ -16,7 +18,6 @@ function App() {
               <h3>Demetri Geras</h3>
               <p>Software Engineer</p>
             </div>
-
             <ul>
               <li>
                 <a href="#aboutMe">
@@ -246,6 +247,7 @@ management and smooth user interactions
   <div className="allprojectdivs">
   <div className="protitle">
       <p>Life After GA</p>
+  
       </div>
       <div className="project-details">
       <img src={lifeafterga}  alt="lifeafterga" className="pro" />
