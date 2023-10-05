@@ -6,6 +6,7 @@ import hangman from "./hangman.png"
 import worldhelp from "./worldhelp.png"
 import lifeafterga from "./lifeafterga.png"
 import Resume from "./DemetriGerasCV2023.pdf"
+import proseed from "./proseed.png"
 import { useState } from "react";
 function App() {
 
@@ -262,9 +263,34 @@ Utilizing React.js and Django frameworks to build an user interface and handle b
       <a href="https://github.com/demetrigeras/GA-LAGA" target="_blank"  className="gitlinks">Github Front-end </a>
       <a href="https://github.com/demetrigeras/GA-LAGA-BE" target="_blank" className="gitlinks">Github Back-end </a>
       </div>
+      <div className="allprojectdivs">
+      <div className="protitle">
+        
+     <p>Proseed</p>
+     </div>
+     <div className="project-details">
+      <a href="https://proseed.netlify.app/" target="_blank" className="project-link">
+      <img src={proseed} alt="proseed" className="pro" />
+      </a>
+      <div className="project-des">
+        <p>
+        
+I've spearheaded the Proseed project, a dynamic MERN stack platform for Investment Banking. My pivotal achievement is the seamless integration of AI technology for automated prospectus generation. Within the platform, users can easily create projects and navigate to "View Tasks," where specific financial documents trigger the generation of detailed prospectuses presented in intuitive text modals. Notably, one of these modals focuses on "Risk Factors," providing a comprehensive overview.
+To achieve this, I utilized MongoDB for efficient data management, leveraged Express.js for robust server-side operations, harnessed React.js to create a user-friendly interface, and employed Node.js for powerful backend functionality. 
+
+        </p>
+      </div>
+      </div>
+  <a href="https://github.com/demetrigeras/Proseed-FE" target="_blank" className="gitlinks">Github Front-end</a>
+  <a href="https://github.com/demetrigeras/Proseed-BE" target="_blank" className="gitlinks">Github Back-end</a>
+  </div>
     </div>
+    
     </div>
+    
   </section>
+
+      
 </Element>
               
               <Element name="contact" className="section">
