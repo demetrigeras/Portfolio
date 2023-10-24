@@ -106,7 +106,7 @@ function App() {
                         alt="HTML 5"
                         className="skill-icon"
                       />
-                      <p>HTML 5</p>
+                     
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -114,7 +114,7 @@ function App() {
                         alt="CSS3"
                         className="skill-icon"
                       />
-                      <p>CSS3</p>
+                      
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -122,7 +122,7 @@ function App() {
                         alt="JavaScript"
                         className="skill-icon"
                       />
-                      <p>JavaScript</p>
+                     
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -130,7 +130,7 @@ function App() {
                         alt="React"
                         className="skill-icon"
                       />
-                      <p>React</p>
+                      
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -138,7 +138,7 @@ function App() {
                         alt="Python"
                         className="skill-icon"
                       />
-                      <p>Python</p>
+                      
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -146,7 +146,7 @@ function App() {
                         alt="PostgreSQL"
                         className="skill-icon"
                       />
-                      <p>PostgreSQL</p>
+                      
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -154,7 +154,7 @@ function App() {
                         alt="Mongodb"
                         className="skill-icon"
                       />
-                      <p>MongoDB</p>
+                      
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -162,7 +162,7 @@ function App() {
                         alt="Flask"
                         className="skill-icon"
                       />
-                      <p>Flask</p>
+                     
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -170,7 +170,7 @@ function App() {
                         alt="Django"
                         className="skill-icon"
                       />
-                      <p>Django</p>
+                      
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -178,7 +178,7 @@ function App() {
                         alt="Node.js"
                         className="skill-icon"
                       />
-                      <p>Node.js</p>
+                     
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -186,7 +186,7 @@ function App() {
                         alt="Github"
                         className="skill-icon"
                       />
-                      <p>Github</p>
+                     
                     </div>
                     <div className="skill-card-card-border">
                       <img
@@ -194,7 +194,7 @@ function App() {
                         alt="Rest-Api"
                         className="skill-icon"
                       />
-                      <p>Rest-Api</p>
+                      
                     </div>
                   </div>
                 </section>
