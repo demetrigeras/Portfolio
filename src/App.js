@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 import hangman from "./hangman.png"
 import worldhelp from "./worldhelp.png"
 import lifeafterga from "./lifeafterga.png"
-import Resume from "./DemetriGerasCV2023.pdf"
+import Resume from "./DemetriGerasCV2023SE.pdf"
 import proseed from "./proseed.png"
 import { useState } from "react";
 function App() {
