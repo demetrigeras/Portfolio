@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import profilePic from "./profilePic.jpeg";
+import crypto from "./crypto.jpeg";
 import { Element } from "react-scroll";
 import hangman from "./hangman.png"
 import worldhelp from "./worldhelp.png"
@@ -284,7 +285,29 @@ To achieve this, I utilized MongoDB for efficient data management, leveraged Exp
   <a href="https://github.com/demetrigeras/Proseed-FE" target="_blank" className="gitlinks">Github Front-end</a>
   <a href="https://github.com/demetrigeras/Proseed-BE" target="_blank" className="gitlinks">Github Back-end</a>
   </div>
+  <div className="allprojectdivs">
+      <div className="protitle">
+        
+     <p>Ethereum-Wallet-Tracker</p>
+     </div>
+     <div className="project-details">
+      <a  target="_blank" className="project-link">
+      <img src={crypto} alt="proseed" className="pro" />
+      </a>
+      <div className="project-des">
+        <p>
+        
+        The Ethereum Wallet Tracker is an innovative application designed for tracking Ethereum transactions. Developed using Go, Pongo2, and Gin, this project leverages the Infura.io and Etherscan APIs to fetch and display transaction data, offering a seamless experience for monitoring Ethereum wallets.
+
+        </p>
+      </div>
+      </div>
+  <a href="https://github.com/demetrigeras/ethereum-wallet-tracker-" target="_blank" className="gitlinks">Github</a>
+
+  </div>
     </div>
+    
+    
     
     </div>
     
