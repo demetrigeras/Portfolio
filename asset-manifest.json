@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6155507b.css",
-    "main.js": "/Portfolio/static/js/main.ebd8098f.js",
+    "main.js": "/Portfolio/static/js/main.ff4be050.js",
     "static/js/787.d69c4a70.chunk.js": "/Portfolio/static/js/787.d69c4a70.chunk.js",
     "static/media/hangman.png": "/Portfolio/static/media/hangman.d15869ad86c13053d681.png",
     "static/media/lifeafterga.png": "/Portfolio/static/media/lifeafterga.a4a198c98feae1863b9b.png",
     "static/media/worldhelp.png": "/Portfolio/static/media/worldhelp.8db3e25702fa74b5192d.png",
     "static/media/proseed.png": "/Portfolio/static/media/proseed.be3761c9fb3da6d75c37.png",
     "static/media/DemetriGerasCV2023SE.pdf": "/Portfolio/static/media/DemetriGerasCV2023SE.782678890a18bc27478e.pdf",
+    "static/media/crypto.jpeg": "/Portfolio/static/media/crypto.181bff778564319ef433.jpeg",
     "static/media/profilePic.jpeg": "/Portfolio/static/media/profilePic.2c14fafe9d75757d7e2b.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.6155507b.css.map": "/Portfolio/static/css/main.6155507b.css.map",
-    "main.ebd8098f.js.map": "/Portfolio/static/js/main.ebd8098f.js.map",
+    "main.ff4be050.js.map": "/Portfolio/static/js/main.ff4be050.js.map",
     "787.d69c4a70.chunk.js.map": "/Portfolio/static/js/787.d69c4a70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6155507b.css",
-    "static/js/main.ebd8098f.js"
+    "static/js/main.ff4be050.js"
   ]
 }
