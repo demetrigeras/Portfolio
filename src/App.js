@@ -9,6 +9,7 @@ import lifeafterga from "./lifeafterga.png"
 import Resume from "./DemetriGerasCV2023SE.pdf"
 import proseed from "./proseed.png"
 import { useState } from "react";
+import party from './party.jpeg'
 function App() {
 
   return (
@@ -304,6 +305,26 @@ To achieve this, I utilized MongoDB for efficient data management, leveraged Exp
       </div>
   <a href="https://github.com/demetrigeras/ethereum-wallet-tracker-" target="_blank" className="gitlinks">Github</a>
 
+  </div>
+  <div className="allprojectdivs">
+      <div className="protitle">
+        
+     <p>Dion Party Scheduling App</p>
+     </div>
+     <div className="project-details">
+      <a  target="_blank" className="project-link">
+      <img src={party} alt="proseed" className="pro" />
+      </a>
+      <div className="project-des">
+        <p>
+        
+        Dion is a sophisticated Party Scheduling app that enables users to create personalized profiles and organize events with ease. It offers a seamless browsing experience where users can view other profiles and express interest in attending events. As a host, you have complete control over guest approvals, ensuring each event aligns with your preferences. Built on the MERN stack (MongoDB, Express.js, React, Node.js), Dion combines advanced technology with user-centric design, making it an efficient tool for professional event planning and networking.
+
+        </p>
+      </div>
+      </div>
+  <a href="https://github.com/demetrigeras/partynisi-fe" target="_blank" className="gitlinks">Github Front-end</a>
+  <a href="https://github.com/demetrigeras/partnisi-BE" target="_blank" className="gitlinks">Github Back-end</a>
   </div>
     </div>
     
