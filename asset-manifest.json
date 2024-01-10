@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.6155507b.css",
-    "main.js": "/Portfolio/static/js/main.ff4be050.js",
+    "main.js": "/Portfolio/static/js/main.3bf2424b.js",
     "static/js/787.d69c4a70.chunk.js": "/Portfolio/static/js/787.d69c4a70.chunk.js",
     "static/media/hangman.png": "/Portfolio/static/media/hangman.d15869ad86c13053d681.png",
     "static/media/lifeafterga.png": "/Portfolio/static/media/lifeafterga.a4a198c98feae1863b9b.png",
@@ -10,13 +10,14 @@
     "static/media/DemetriGerasCV2023SE.pdf": "/Portfolio/static/media/DemetriGerasCV2023SE.782678890a18bc27478e.pdf",
     "static/media/crypto.jpeg": "/Portfolio/static/media/crypto.181bff778564319ef433.jpeg",
     "static/media/profilePic.jpeg": "/Portfolio/static/media/profilePic.2c14fafe9d75757d7e2b.jpeg",
+    "static/media/party.jpeg": "/Portfolio/static/media/party.7795fb1dd166508323bc.jpeg",
     "index.html": "/Portfolio/index.html",
     "main.6155507b.css.map": "/Portfolio/static/css/main.6155507b.css.map",
-    "main.ff4be050.js.map": "/Portfolio/static/js/main.ff4be050.js.map",
+    "main.3bf2424b.js.map": "/Portfolio/static/js/main.3bf2424b.js.map",
     "787.d69c4a70.chunk.js.map": "/Portfolio/static/js/787.d69c4a70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6155507b.css",
-    "static/js/main.ff4be050.js"
+    "static/js/main.3bf2424b.js"
   ]
 }
