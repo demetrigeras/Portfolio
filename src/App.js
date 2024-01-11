@@ -182,7 +182,37 @@ function App() {
                         className="skill-icon"
                       />
                     </div>
+                    <div className="skill-card-card-border">
+                      <img
+                        src="https://testrigor.com/wp-content/uploads/2023/04/nextjs-logo-square.png"
+                        alt="Next.js"
+                        className="skill-icon"
+                      />
+                      </div>
+
+                    <div className="skill-card-card-border">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+                        alt="TS"
+                        className="skill-icon"
+                      />
+                      </div>
+                      <div className="skill-card-card-border">
+                      <img
+                        src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
+                        alt="AWS"
+                        className="skill-icon"
+                      />
+                      </div>
+                      <div className="skill-card-card-border">
+                      <img
+                        src="https://pbs.twimg.com/profile_images/1142154201444823041/O6AczwfV_400x400.png"
+                        alt="GO"
+                        className="skill-icon"
+                      />
+                      </div>
                   </div>
+                  
                 </section>
               </Element>
 
