@@ -427,7 +427,7 @@ function App() {
                               preferences. Built on the MERN stack (MongoDB,
                               Express.js, React, Node.js), Dion combines
                               advanced technology with user-centric design,
-                              making it an efficient tool for professional event
+                              making it an efficient tool for event
                               planning and networking.
                             </p>
                           </div>
